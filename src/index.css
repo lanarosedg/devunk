@@ -7,7 +7,7 @@
 
 .homeContainer {
   display: grid;
-  grid-template-rows: 50px 50px 50px 350px 130px;
+  grid-template-rows: 50px 50px 50px;
   grid-template-columns: 40px auto 40px;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .navBottomContainerFlex button {
-  width: 80px;
+  width: 130px;
   font-size: 18px;
   border-style: none;
   background-color: transparent;
@@ -71,12 +71,14 @@
 
 .headlineContainer {
   display: grid;
-  grid-area: 5 / 2 / 6 / 3;
+  grid-template-rows: 300px 190px;
+  grid-template-columns: 40px 1fr 40px;
 }
 
 .homeHeadline {
   font-size: 28px;
   font-weight: bold;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .developer {
