@@ -12,6 +12,12 @@ function Home() {
   const navigate = useNavigate();
   return (
     <>
+    <div className="homeImageWrapper">
+        <img 
+                src={homePhoto}
+                alt="" 
+                className="homeImage" 
+        />
     <Navigation/>
         <div className="headlineContainer">
           <p className="homeHeadline">
@@ -19,6 +25,7 @@ function Home() {
             <br />for <span className="developer">developers</span>
           </p>
         </div>
+      </div>
     </>
   )
 }

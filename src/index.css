@@ -11,14 +11,6 @@
   grid-template-columns: 40px auto 40px;
 }
 
-.homeImage {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  grid-column: 1 / 5;
-  align-items: center;
-}
-
 .navTopContainer {
   display: grid;
   grid-area: 2 / 2 / 3 / 4;
@@ -69,10 +61,29 @@
   background-color: transparent;
 }
 
+.homeImageWrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.homeImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .headlineContainer {
   display: grid;
   grid-template-rows: 300px 190px;
   grid-template-columns: 40px 1fr 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .homeHeadline {
@@ -83,4 +94,51 @@
 
 .developer {
   font-size: 42px;
+}
+
+.apparelContainer {
+  background-color: #0D1117;
+}
+
+.product1Container {
+  display: grid;
+  grid-template-rows: 50px 400px 50px 50px 50px;
+  grid-template-columns: 40px auto 40px;
+}
+
+.product1Image {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  width: 355px;
+  height: 355px;
+  justify-content: center;
+  align-items: center;
+}
+
+.namePrice {
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  justify-items: center;
+  align-content: center;
+}
+
+.addBuy {
+  display: grid;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.addBuyFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buy {
+  border-color: #E5E7EB;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
 }

@@ -12,11 +12,7 @@ function Navigation() {
     <>
       <div className="homeContainer">
         {/* devunk(); cart menu */}
-        <img 
-            src={homePhoto}
-            alt="" 
-            className="homeImage" 
-        />
+        
         <div className="navTopContainer">
             <div className="navTopContainerFlex">
                 <div className="navLogoContainer">
@@ -24,6 +20,7 @@ function Navigation() {
                         src={logo}
                         alt="" 
                         className="navLogo"
+                        onClick={() => navigate('/')}
                     />
                 </div>
                 <div className="navMenuContainer">
@@ -42,7 +39,7 @@ function Navigation() {
         </div>
         <div className="navBottomContainer">
             <div className="navBottomContainerFlex">
-                <button>
+                <button onClick={() =>navigate('/Apparel')}>
                     APPAREL
                 </button>
                 <button>
