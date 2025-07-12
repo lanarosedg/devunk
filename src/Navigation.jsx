@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import homePhoto from './assets/home.jpg';
 import logo from './assets/logo.png';
 import menu from './assets/menu.png';
-import cart from './assets/cart.png';
+import whiteCart from './assets/whiteCart.png';
 
 function Navigation() {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ function Navigation() {
                 </div>
                 <div className="navMenuContainer">
                     <img 
-                        src={cart}
+                        src={whiteCart}
                         alt="" 
                         className="cart" 
                     />

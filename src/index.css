@@ -140,7 +140,7 @@
 }
 
 .buy {
-  border-color: #E5E7EB;
+  border-color: #00FF9F;
   border-style: solid;
   border-width: 1px;
   background-color: transparent;
@@ -184,8 +184,8 @@
 .product3Image {
   display: grid;
   grid-area: 2 / 3 / 5 / 5;
-  width: 297px;
-  height: 583px;
+  width: 253px;
+  height: 499px;
 }
 
 .product3NamePrice {
@@ -268,6 +268,11 @@
 .blue {
   color: #61AFEF;
   font-size: 32px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .logo {

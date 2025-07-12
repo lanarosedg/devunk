@@ -21,7 +21,7 @@ function Apparel() {
                     className="product1Image" 
                 />
                 <p className="namePrice">
-                    <p>DOCU</p>
+                    <p className="bold">DOCU</p>
                     <p>₱450.00</p>
                 </p>
                 <div className="addBuy">
@@ -44,7 +44,7 @@ function Apparel() {
                     className="product2Image" 
                 />
                 <p className="product2NamePrice">
-                    <p>LOCKED IN</p>
+                    <p className="bold">LOCKED IN</p>
                     <p>₱400.00</p>
                 </p>
                 <div className="product2AddBuy">
@@ -67,7 +67,7 @@ function Apparel() {
                     className="product3Image" 
                 />
                 <p className="product3NamePrice">
-                    <p>GOLDEN RULE</p>
+                    <p className="bold">GOLDEN RULE</p>
                     <p>₱450.00</p>
                 </p>
                 <div className="product3AddBuy">
@@ -90,7 +90,7 @@ function Apparel() {
                     className="product4Image" 
                 />
                 <p className="namePrice">
-                    <p>CROPPED HOODIE</p>
+                    <p className="bold">CROPPED HOODIE</p>
                     <p>₱600.00</p>
                 </p>
                 <div className="addBuy">
@@ -113,7 +113,7 @@ function Apparel() {
                     className="product5Image" 
                 />
                 <p className="product5NamePrice">
-                    <p>REPO HOODIE</p>
+                    <p className="bold">REPO HOODIE</p>
                     <p>₱600.00</p>
                 </p>
                 <div className="product5AddBuy">
