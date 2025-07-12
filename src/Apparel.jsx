@@ -1,4 +1,5 @@
 import Navigation from './Navigation'
+import Footer from './Footer'
 
 import docu from './assets/apparel/docu.png'
 import lockedin from './assets/apparel/lockedin.png'
@@ -128,8 +129,8 @@ function Apparel() {
                     </div>
                 </div>
             </div>
+        <Footer />
         </div>
-        
         </>
     )
 }

@@ -210,13 +210,13 @@
 
 .product5Container {
   display: grid;
-  grid-template-rows: 50px 575px 50px 50px 50px 120px;
+  grid-template-rows: 50px 510px 50px 50px 50px 120px;
   grid-template-columns: 40px auto 40px;
 }
 
 .product5Image {
-  width: 336px;
-  height: 572px;
+  width: 298px;
+  height: 507px;
   display: grid;
   grid-area: 2 / 2 / 3 / 3;
   justify-self: center;
@@ -232,4 +232,85 @@
 .product5AddBuy {
   display: grid;
   grid-area: 5 / 2 / 6 / 3;
+}
+
+.footerParent {
+  display: grid;
+  grid-template-rows: 300px 50px 50px 50px 30px;
+  grid-template-columns: 40px auto 40px;
+}
+
+.statement {
+  display: grid;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.statementBold {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.green {
+  color: #00FF9F;
+  font-size: 32px;
+}
+
+.yellow {
+  color: #F1FA8C;
+  font-size: 32px;
+}
+
+.red {
+  color: #FF5555;
+  font-size: 32px;
+}
+
+.blue {
+  color: #61AFEF;
+  font-size: 32px;
+}
+
+.logo {
+  width: 146px;
+  height: 21px;
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.suggestion {
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  justify-self: center;
+  align-self: center;
+  font-size: 12px;
+}
+
+.socMed {
+  display: grid;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.socMedFlex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.socMed img {
+  width: 24px;
+  height: 24px
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  background-color: #161d27;
+  display: grid;
+  grid-area: 5 / 1 / 6 / 4;
+  justify-content: center;
+  align-content: center;
+  font-size: 10px;
 }
