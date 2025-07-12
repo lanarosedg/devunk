@@ -107,7 +107,7 @@
 
 .product1Container {
   display: grid;
-  grid-template-rows: 50px 370px 50px 50px 180px;
+  grid-template-rows: 50px 370px 50px 50px 120px;
   grid-template-columns: 40px auto 40px;
 }
 
@@ -177,7 +177,7 @@
 
 .product3Container {
   display: grid;
-  grid-template-rows: 50px 50px 50px 500px;
+  grid-template-rows: 50px 50px 50px 500px 50px;
   grid-template-columns: 40px 70px 80px 200px 40px;
 }
 
@@ -197,4 +197,13 @@
 .product3AddBuy {
   display: grid;
   grid-area: 3 / 2 / 4 / 4;
+}
+
+.product4Image {
+  width: 333px;
+  height: 333px;
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  align-self: center;
+  justify-self: center;
 }
