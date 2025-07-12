@@ -2,6 +2,8 @@ import Navigation from './Navigation'
 
 import docu from './assets/apparel/docu.png'
 import lockedin from './assets/apparel/lockedin.png'
+import goldenRule from './assets/apparel/goldenRule.png'
+
 import cart from './assets/cart.png'
 
 function Apparel() {
@@ -43,6 +45,29 @@ function Apparel() {
                     <p>₱400.00</p>
                 </p>
                 <div className="addBuy">
+                    <div className="addBuyFlex">
+                        <img 
+                            src={cart}
+                            alt="" 
+                            className="cart" 
+                        />
+                        <button className="buy">
+                            BUY
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="product3Container">
+                <img 
+                    src={goldenRule} 
+                    alt="" 
+                    className="product3Image" 
+                />
+                <p className="product3NamePrice">
+                    <p>GOLDEN RULE</p>
+                    <p>₱450.00</p>
+                </p>
+                <div className="product3AddBuy">
                     <div className="addBuyFlex">
                         <img 
                             src={cart}

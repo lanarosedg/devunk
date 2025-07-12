@@ -151,3 +151,27 @@
   align-self: center;
   justify-self: center;
 }
+
+.product3Container {
+  display: grid;
+  grid-template-rows: 50px 50px 50px 500px;
+  grid-template-columns: 40px 70px 80px 200px 40px;
+}
+
+.product3Image {
+  display: grid;
+  grid-area: 2 / 3 / 5 / 5;
+  width: 297px;
+  height: 583px;
+}
+
+.product3NamePrice {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 4;
+  text-align: center;
+}
+
+.product3AddBuy {
+  display: grid;
+  grid-area: 3 / 2 / 4 / 4;
+}
