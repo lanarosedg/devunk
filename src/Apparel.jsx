@@ -34,17 +34,17 @@ function Apparel() {
                     </div>
                 </div>
             </div>
-            <div className="product1Container">
+            <div className="product2Container">
                 <img 
                     src={lockedin}
                     alt="" 
                     className="product2Image" 
                 />
-                <p className="namePrice">
+                <p className="product2NamePrice">
                     <p>LOCKED IN</p>
                     <p>₱400.00</p>
                 </p>
-                <div className="addBuy">
+                <div className="product2AddBuy">
                     <div className="addBuyFlex">
                         <img 
                             src={cart}
