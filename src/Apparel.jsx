@@ -4,6 +4,7 @@ import docu from './assets/apparel/docu.png'
 import lockedin from './assets/apparel/lockedin.png'
 import goldenRule from './assets/apparel/goldenRule.png'
 import croppedHoodie from './assets/apparel/croppedHoodie.png'
+import repoHoodie from './assets/apparel/repoHoodie.png'
 
 import cart from './assets/cart.png'
 
@@ -89,9 +90,32 @@ function Apparel() {
                 />
                 <p className="namePrice">
                     <p>CROPPED HOODIE</p>
-                    <p>₱0.00</p>
+                    <p>₱600.00</p>
                 </p>
                 <div className="addBuy">
+                    <div className="addBuyFlex">
+                        <img 
+                            src={cart}
+                            alt="" 
+                            className="cart" 
+                        />
+                        <button className="buy">
+                            BUY
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="product5Container">
+                <img 
+                    src={repoHoodie}
+                    alt="" 
+                    className="product5Image" 
+                />
+                <p className="product5NamePrice">
+                    <p>REPO HOODIE</p>
+                    <p>₱600.00</p>
+                </p>
+                <div className="product5AddBuy">
                     <div className="addBuyFlex">
                         <img 
                             src={cart}
