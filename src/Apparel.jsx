@@ -1,6 +1,7 @@
 import Navigation from './Navigation'
 
 import docu from './assets/apparel/docu.png'
+import lockedin from './assets/apparel/lockedin.png'
 import cart from './assets/cart.png'
 
 function Apparel() {
@@ -15,7 +16,7 @@ function Apparel() {
                     className="product1Image" 
                 />
                 <p className="namePrice">
-                    <p>Docu</p>
+                    <p>DOCU</p>
                     <p>₱450.00</p>
                 </p>
                 <div className="addBuy">
@@ -31,7 +32,31 @@ function Apparel() {
                     </div>
                 </div>
             </div>
+            <div className="product1Container">
+                <img 
+                    src={lockedin}
+                    alt="" 
+                    className="product2Image" 
+                />
+                <p className="namePrice">
+                    <p>LOCKED IN</p>
+                    <p>₱400.00</p>
+                </p>
+                <div className="addBuy">
+                    <div className="addBuyFlex">
+                        <img 
+                            src={cart}
+                            alt="" 
+                            className="cart" 
+                        />
+                        <button className="buy">
+                            BUY
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
+        
         </>
     )
 }
