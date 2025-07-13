@@ -116,8 +116,8 @@
   grid-area: 2 / 2 / 3 / 3;
   width: 355px;
   height: 355px;
-  justify-content: center;
-  align-items: center;
+  justify-self: center;
+  align-self: center;
 }
 
 .namePrice {
@@ -184,8 +184,8 @@
 .product3Image {
   display: grid;
   grid-area: 2 / 3 / 5 / 5;
-  width: 253px;
-  height: 499px;
+  width: 297px;
+  height: 583px;
 }
 
 .product3NamePrice {

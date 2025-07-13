@@ -3,6 +3,8 @@ import instagram from './assets/logo/instagram.png'
 import facebook from './assets/logo/facebook.png'
 import tiktok from './assets/logo/tiktok.png'
 
+import { useNavigate } from 'react-router-dom'
+
 function Footer() {
     return (
         <>
@@ -28,18 +30,24 @@ function Footer() {
             </p>
             <div className="socMed">
                 <div className="socMedFlex">
-                    <img 
-                        src={instagram} 
-                        alt="" 
-                    />
-                    <img 
-                        src={facebook}
-                        alt="" 
-                    />
-                    <img 
-                        src={tiktok}
-                        alt="" 
-                    />
+                    <a href="https://www.instagram.com/devunk.ph/">
+                        <img 
+                            src={instagram} 
+                            alt=""                     
+                        />
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61578306112699">
+                        <img 
+                            src={facebook}
+                            alt="" 
+                        />
+                    </a>
+                    <a href="https://www.tiktok.com/@devunk.ph">
+                        <img 
+                            src={tiktok}
+                            alt="" 
+                        />
+                    </a>
                 </div>
             </div>
             <div className="copyright">
