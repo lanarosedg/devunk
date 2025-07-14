@@ -51,7 +51,7 @@ function Footer() {
                 </div>
             </div>
             <div className="copyright">
-                © 2025 | devunk.ph
+                © 2025 | devunk.ph | wear your code
             </div>
         </div>
         </>
