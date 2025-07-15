@@ -1,5 +1,5 @@
 import './App.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 import homePhoto from './assets/home.jpg';
 import logo from './assets/logo.png';
@@ -8,6 +8,8 @@ import whiteCart from './assets/whiteCart.png';
 
 function Navigation() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const isOnApparel = location.pathname === '/Apparel';
   return (
     <>
       <div className="homeContainer">
@@ -39,7 +41,10 @@ function Navigation() {
         </div>
         <div className="navBottomContainer">
             <div className="navBottomContainerFlex">
-                <button onClick={() =>navigate('/Apparel')}>
+                <button 
+                    className='apparelButton'
+                    style={{ color: isOnApparel ? '#00FF88' : '#E5E7EB' }}
+                    onClick={() =>navigate('/Apparel')}>
                     APPAREL
                 </button>
                 <button>
