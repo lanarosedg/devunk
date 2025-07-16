@@ -10,6 +10,7 @@ function Navigation() {
   const navigate = useNavigate();
   const location = useLocation();
   const isOnApparel = location.pathname === '/Apparel';
+  const isOnPeripherals = location.pathname === '/Peripherals';
   return (
     <>
       <div className="homeContainer">
@@ -47,7 +48,10 @@ function Navigation() {
                     onClick={() =>navigate('/Apparel')}>
                     APPAREL
                 </button>
-                <button>
+                <button
+                    className='peripheralsButton'
+                    style={{ color: isOnPeripherals ? '#00FF88' : '#E5E7EB'}}
+                    onClick={() => navigate('/Peripherals')}>
                     PERIPHERALS
                 </button>
             </div>
