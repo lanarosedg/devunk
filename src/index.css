@@ -332,3 +332,12 @@
   justify-self: center;
   align-self: center;
 }
+
+.toteWhite {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  width: 326px;
+  height: 490px;
+  justify-self: center;
+  align-self: center;
+}
