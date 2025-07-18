@@ -3,6 +3,8 @@ import mouse1 from './assets/peripherals/mousepadBlack.png'
 import cart from './assets/cart.png'
 import toteWhite from './assets/peripherals/toteWhite.png'
 
+import Footer from "./Footer"
+
 function Peripherals () {
     return (
         <>
@@ -54,6 +56,7 @@ function Peripherals () {
                 </div>
                     </div>
             </div>
+            <Footer />
         </div>
         </>
     )
